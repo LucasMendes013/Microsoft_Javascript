@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  aaaa
+  <p id="pe"></p>
+  <script>
+    let array = [1, 2, 3, 4, 5]
+    array = array.join(' and ') //puxa elementos em formato de string
+    console.log(array)
+
+    array1 = [1, 2, 3, 4, 5]
+    array1.push(6) //adiciona elementos no ultimo array
+    console.log(array1)
+
+    array1.unshift(0) //adiciona elementos no ultimo array
+    console.log(array1)
+
+    array1.pop() //remove o ultimo elemento do array
+    console.log(array1)
+
+    array1.shift() //remove o primeiro elemento do array
+    console.log(array1)
+
+    array2 = array1.slice(0, 3) //extrai uma parte do array
+    console.log(array2)
+
+    array2.splice(0, 0 , "adicionado") //substitui o espaço de array pelo que especificado
+    console.log(array2)
+
+    array2.reverse() //inverte a ordem do array
+    console.log(array2)
+    
+  </script>
+</body>
+</html>
