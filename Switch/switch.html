@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  aaaaab
+  <p id="pe"></p>
+  <script>
+  const status = 100
+  const pe = document.getElementById("pe").innerText = status
+
+  switch (status) {
+    case 200:
+    console.log('200 OK')
+    break;
+    case 300:
+    case 400: 
+    console.log('300 or 400 OK')
+    break;
+    default:
+      console.log('Unknow status: ' + status)
+      break;
+  }
+  </script>
+</body>
+</html>
