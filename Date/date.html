@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  aaaa
+  <p id="pe"></p>
+  <script>
+    const date = new Date(2022, 7, 20, 10, 9, 8) // Ano, mês(início pelo 0), dia, hora, minutos, segundos
+    date.setFullYear(2025)  //Modifica o ano
+    date.setMonth(1) // Modifica o mês
+    date.setDate(30) //Modifica o dia
+    date.setHours(0) // Modifica a hora
+    date.setMinutes(0) // Modifica os minutos
+    date.setSeconds(0) // Modifica os segundos
+    const pe = document.getElementById("pe").innerHTML = date
+    date.getMonth() //Pega o Mês
+    date.getTime() //Pega o horário
+    date.getDat() //Pega o dia
+  </script>
+</body>
+</html>
